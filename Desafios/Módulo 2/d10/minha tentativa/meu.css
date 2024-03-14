@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(189, 255, 189);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(124, 202, 124), rgb(74, 158, 74), rgb(30, 105, 30), rgb(4, 43, 4));
+    padding: 10px;
+    margin: -8px -8px -5px -8px;
+}
+
+header > nav {
+    text-align: left;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    margin: -20px 75px 10px 75px;
+}
+
+main > section {
+    background-color: white;
+}
+
+main > section > p > strong {
+    color: green;
+}
+
+article#video {
+    background-color: darkgreen;
+}
+
+article#extra {
+    background-color: rgb(189, 255, 189);
+    margin: 10px;
+}
+
+div {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+}
+
+footer > p > strong {
+    color: white;
+}

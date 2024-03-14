@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas: cm (centímetro), mm (milímetro), in (polegada), px (pixel), pt (ponto), pc (paica)
+            
+            Medidas Relativas: em (tamanho atual da fonte), ex (altura x de uma fonte), rem (fonte configurada no body), vw (largura da view port(largura da tela)), vh (altura da view port), %
+
+            W3C recomenda o PX e EM.
+            
+            16px (padrão) = 1em
+            */
+            font-size: 1em;
+            font-weight: 600;
+            /* lighter, normal, bold, bolder */
+            font-style: italic;
+            /* normal, italic... */
+            text-decoration: underline;
+        }
+
+        h1 {
+            /* Invés de usar tudo isso:
+
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            
+            font: italic, bolder, 3em, sans-serif;
+
+            /* Usamos o shorthand font:
+
+            - font-style -> font-weight -> font-size -> font-family */
+            
+        }
+
+        h2 {
+            font: bold, 2em, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde. Fuga eaque, impedit minus hic expedita dicta, odit commodi perspiciatis assumenda a obcaecati et, suscipit veniam molestiae nulla illo ea? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe voluptate unde, officia sint distinctio placeat dicta libero quam sunt, magnam et reiciendis. Temporibus repellendus unde ex voluptatem nesciunt nulla quisquam?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur a omnis unde quidem. A nam nostrum ratione minima, dicta possimus quasi earum. Officiis consequuntur facilis a rerum exercitationem facere nemo.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestiae officiis amet, sunt dolore eius sit repellendus facere veniam quod est id cum excepturi soluta at sed, nisi explicabo voluptate.</p>
+</body>
+</html>
